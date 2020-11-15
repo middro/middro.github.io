@@ -1516,8 +1516,6 @@ div.post-content .table-wrapper {
 
 @media all and (min-width: 1700px) {
   #topbar-wrapper {
-    padding-right: calc(100% - #{$sidebar-width-large}
-     - (1920px - #{$sidebar-width-large}) ) /* 100% - 350px - (1920px - 350px); */
   }
 
   #topbar {
@@ -1534,7 +1532,6 @@ div.post-content .table-wrapper {
 
   footer {
     padding-left: 0;
-    padding-right: calc(100% - #{$sidebar-width-large} - 1180px);
   }
 
   #back-to-top {
@@ -1545,11 +1542,9 @@ div.post-content .table-wrapper {
 
 @media (min-width: 1920px) {
   #main > div.row {
-    padding-left: 190px;
   }
 
   #search-result-wrapper {
-    padding-right: calc(100% - #{$sidebar-width-large} - 1530px);
   }
 
   #panel-wrapper {
